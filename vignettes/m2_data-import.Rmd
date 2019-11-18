@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 ## Alamat berkas
 
-Tahap terpenting sebelum Anda melakukan impor data adalah menentukan alamat dimana berkas atau dokumen yang akan diimpor disimpan. Praktek terbaik pertama adalah menyimpan berkas data, skrip analisis, dan keluaran analisis di dalam satu direktori utama serta membaginya ke dalam beberapa subdirektori. Sebagai contoh, dalam pelatihan ini semua material disimpan dalam satu direktori "tidyds". Praktek terbaik kedua adalah menuliskan alamat berkas atau dokumen relatif terhadap direktori utama. Hindari menulis alamat berkas relatif terhadap alamat *hardisk*, contohnya "C:/Documents/.." atau "/home/aswansyahputra/Documents".
+Tahap terpenting sebelum Anda melakukan impor data adalah menentukan alamat dimana berkas atau dokumen yang akan diimpor disimpan. Praktek terbaik pertama adalah menyimpan berkas data, skrip analisis, dan keluaran analisis di dalam satu direktori utama serta membaginya ke dalam beberapa subdirektori. Sebagai contoh, dalam pelatihan ini semua material disimpan dalam satu direktori "tidyds". Praktek terbaik kedua adalah menuliskan alamat berkas atau dokumen relatif terhadap direktori utama. Hindari menulis alamat berkas relatif terhadap alamat *hardisk*, contohnya "C:/Documents/.." atau "/home/user/Documents".
 
 Dalam pelatihan ini Anda akan menggunakan paket `here` untuk menentukan dan menuliskan alamat berkas atau dokumen. Aktifkanlah paket `here` terlebih dahulu dengan menjalankan `library(nama_paket)`!
 
